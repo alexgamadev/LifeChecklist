@@ -1,0 +1,29 @@
+{
+    "checklistItems": [
+        {
+            "text": "Check Car Oil",
+            "checked": false,
+            "category": null
+        },
+        {
+            "text": "Wash Car",
+            "checked": false,
+            "category": null
+        },
+        {
+            "text": "Take Bin Out",
+            "checked": false,
+            "category": null
+        },
+        {
+            "text": "Update CV",
+            "checked": false,
+            "category": null
+        },
+        {
+            "text": "Budget",
+            "checked": false,
+            "category": null
+        }
+    ]
+}

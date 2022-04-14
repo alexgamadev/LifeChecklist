@@ -1,6 +1,7 @@
 import './App.css';
 import ChecklistForm from './components/ChecklistForm';
 import ChecklistItem from './components/ChecklistItem';
+import DefaultTemplate from './data/DefaultTemplate.json';
 
 function App() {
   return (
@@ -10,8 +11,12 @@ function App() {
           Life Checklist
         </h1>
         <ChecklistForm>
-          <ChecklistItem key={1} text="First checkbox item" />
-          <ChecklistItem key={2} text="Second checkbox item" />
+          {DefaultTemplate.checklistItems.map((item, index) => {
+            return (
+              <>
+                <ChecklistItem key={index} text={item.text} />
+              </>);
+          })}
         </ChecklistForm>
       </header>
     </div>
