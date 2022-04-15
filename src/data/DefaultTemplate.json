@@ -3,27 +3,44 @@
         {
             "text": "Check Car Oil",
             "checked": false,
-            "category": null
+            "category": 0
         },
         {
             "text": "Wash Car",
             "checked": false,
-            "category": null
+            "category": 0
         },
         {
             "text": "Take Bin Out",
             "checked": false,
-            "category": null
+            "category": 2
         },
         {
             "text": "Update CV",
             "checked": false,
-            "category": null
+            "category": 3
         },
         {
             "text": "Budget",
             "checked": false,
-            "category": null
+            "category": 1
+        },
+        {
+            "text": "Gym",
+            "checked": false,
+            "category": 4
+        },
+        {
+            "text": "Plan Meals",
+            "checked": false,
+            "category": 2
         }
+    ],
+    "categories": [
+        "Vehicle",
+        "Finance",
+        "Household",
+        "Work",
+        "Leisure"
     ]
 }

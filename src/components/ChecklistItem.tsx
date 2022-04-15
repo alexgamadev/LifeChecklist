@@ -1,4 +1,4 @@
-import './ChecklistForm.css';
+import './Checklist.css';
 
 interface ChecklistProps {
     text: string;

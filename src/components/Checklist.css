@@ -8,9 +8,14 @@
     display: flex;
     align-items: center;
     gap: 0.5em;
+    font-size: 0.8em;
 }
 
 .ChecklistItem input {
-    height: 25px;
-    width: 25px;
+    height: 1.5em;
+    width: 1.5em;
+}
+
+.ChecklistGroup-Title {
+    margin: 0;
 }
