@@ -11,3 +11,13 @@
   font-size: calc(10px + 2vmin);
   color: white;
 }
+
+.App-topbar {
+  display: flex;
+  align-items: center;
+}
+
+.App-feedback-button {
+  position: absolute;
+  right: 2rem;
+}

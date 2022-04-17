@@ -2,18 +2,9 @@ import './App.css';
 import ChecklistForm from './components/ChecklistForm';
 import ChecklistGroup from './components/ChecklistGroup';
 import ChecklistItem from './components/ChecklistItem';
+import FeedbackButton from './components/FeedbackButton';
 import DefaultTemplate from './data/DefaultTemplate.json';
 
-interface IChecklistItem {
-  text: string,
-  checked: boolean,
-  category: number;
-}
-
-interface IChecklistGroup {
-  name: string;
-  items?: IChecklistItem;
-}
 function App() {
   const checklistItems = DefaultTemplate.categories.map((categoryName, categoryId) => {
     const items = DefaultTemplate.checklistItems.filter(item => {
@@ -25,9 +16,12 @@ function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <h1>
-          Life Checklist
-        </h1>
+        <div className="App-topbar">
+          <h1>
+            Life Checklist
+          </h1>
+          <FeedbackButton className="App-feedbackButton" />
+        </div>
         <ChecklistForm>
           {checklistItems.map((item, index) => {
             return (
