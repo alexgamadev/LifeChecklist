@@ -13,7 +13,7 @@ const FeedbackButton = (props: any) => {
                     Give Feedback
                 </button>
             </div>
-            <FeedbackForm visible={show} nodeRef={nodeRef} />
+            <FeedbackForm visible={show} nodeRef={nodeRef} setVisible={setShow} />
         </>
     );
 }
