@@ -20,7 +20,7 @@ function App() {
           <h1>
             Life Checklist
           </h1>
-          <FeedbackButton className="App-feedbackButton" />
+          <FeedbackButton className="App-feedback-button" />
         </div>
         <ChecklistForm>
           {checklistItems.map((item, index) => {
